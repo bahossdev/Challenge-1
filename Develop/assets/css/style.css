@@ -1,9 +1,11 @@
+/* Universal Selector */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Element Selectors */
 body {
     background-color: #d9dcd6;
 }
@@ -34,6 +36,11 @@ h4 {
     font-size: 20px;
  }
 
+ p {
+    font-size: 16px;
+}
+
+ /* Navigation Bar */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -56,10 +63,7 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
-
+ /* Background Image */
 #background {
     position: relative;
     top: -68px;
@@ -69,6 +73,7 @@ p {
     margin-bottom: -40px;
 }
 
+ /* Main Sections */
 main {
     width: 75%;
     display: inline-block;
@@ -100,10 +105,12 @@ aside {
     color: #ffffff;
 }
 
+ /* Navigation Bar */
 aside div {
     margin-bottom: 32px;
 }
 
+ /* Right Side Block */
 aside img {
     display: block;
     margin: 10px auto;
@@ -117,6 +124,8 @@ footer {
     text-align: center;
 }
 
+
+/* Class Selectors */
 .grey-title{
     color: #d9dcd6;
 }
